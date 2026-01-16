@@ -15,7 +15,7 @@ Run the following commands in a terminal:
 git clone https://github.com/SinRise-Git/Service-desk-chrome-extension.git
 ```
 ```bash
-cd Service-desk-chrome-extension
+cd phonero-chrome-extension
 ```
 ```bash
 rm README.md .gitignore
