@@ -26,6 +26,6 @@ Open Chrome and navigate to: <chrome://extensions/>
 ## 3. Activate developere mode 
 Enable Developer mode by toggling the switch in the top-right corner.
 ## 4. Load the extension
-1. Click Load unpacked in the top-left corner.e the file location where you cloned the repository. 
+1. Click the Load unpacked button in the top-left corner.
 2. Navigate to the folder where you cloned the repository.
 3. Select the project folder itself (open the folder, don’t just select it).
