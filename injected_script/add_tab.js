@@ -2,8 +2,10 @@
     const observer = new MutationObserver((mutations, observer) => {
         const tabList = document.querySelector('.info .header-box .tab-item-list.clearfix');
         const panelList = document.querySelectorAll('.current-call-info .info > div')[1];
+        const settingTab = document.querySelector('.tab-item.float-right');
 
         if (tabList && panelList) {
+            settingTab.classList.remove('float-right');
             addCustomTabButton(tabList, panelList);
             observer.disconnect();
         }
@@ -121,6 +123,7 @@
                 const allTabs = document.querySelectorAll('.tab-item-list.clearfix .tab-item')
                 allTabs.forEach(tab => {
                     tab.classList.remove('active');
+                    tab.classList.remove('float-right')
                 });
                 if (event.target.classList.contains('tab-item')) {
                     event.target.classList.add('active');
