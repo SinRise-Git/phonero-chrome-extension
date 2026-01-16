@@ -13,7 +13,6 @@
     background-color: #0056b3 !important;
 }
 
-
 .panel-content-text {
     background-color: white !important;
     padding: 7.5px !important;
@@ -28,4 +27,12 @@
     border-radius: 5px !important;
     border: none !important;
     padding: 7.5px !important;
+}
+
+.tab-item-list.clearfix{
+    overflow: auto !important;
+}
+
+.tab-item.float-right {
+    float: left !important;
 }
