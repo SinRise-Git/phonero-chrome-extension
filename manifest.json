@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Phonero++",
+  "version": "1.0",
+  "description": "A Chrome extension that enhances Phonero functionality.",
+  "permissions": [
+    "debugger",
+    "clipboardRead",
+    "clipboardWrite",
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://bn.phonero.no/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "public/index.html",
+    "default_title": "Settings"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bn.phonero.no/*"],
+      "js": [
+        "injected_script/add_tab.js"
+      ],
+      "style": [
+        "styles/custom.css"
+      ]
+    }
+  ],
+  "author": "Sinrise"
+}

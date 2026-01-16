@@ -1,0 +1,31 @@
+.custom-panel-button { 
+    padding: 7.5px 15px 7.5px 15px !important;
+    margin-right: 7.5px !important;
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.custom-panel-button:hover {
+    background-color: #0056b3 !important;
+}
+
+
+.panel-content-text {
+    background-color: white !important;
+    padding: 7.5px !important;
+    border-radius: 5px !important;
+    overflow: auto !important;
+    max-height: 240px !important;
+}
+
+.panel-edit-div textarea {
+    width: 100% !important;
+    height: 235px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    padding: 7.5px !important;
+}

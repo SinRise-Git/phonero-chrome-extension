@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 20px 20px 20px;
+    background-color: #020617;
+    width: 300px;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 7.5px 0px 7.5px 0px;
+}
+
+.panelInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #292929;
+    padding: 7.5px 10px 7.5px 10px;
+    border-radius: 5px;
+}
+
+.panelInput input {
+    padding: 7.5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.panelInput button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px 10px 6px 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 13px;
+}
+
+.panelInput button:hover {
+    background-color:  #007bff;
+}
+
+.panelList {
+    overflow-y: auto;
+    background-color: #292929;
+    padding: 7.5px;
+    border-radius: 5px;
+}
+
+.panelItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 7.5px 10px 7.5px 10px;
+    margin-bottom: 7.5px;
+    border-radius: 5px;
+}
+
+.panelItem p {
+    margin: 0px 0px 0px 0px;    
+    font-size: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.panelItem p:hover {
+    color: lightgrey;
+}
+
+.panelItem input {
+    font-size: 14px;
+    color: lightgrey;
+    background-color: transparent;
+    border: none;
+    outline: none;       
+    box-shadow: none;
+    padding: 0px;
+    overflow: hidden;
+    width: 160px;
+}
+
+.panelButtonContainer {
+    display: flex;
+    gap: 5px;
+}
+
+.panelButtonContainer button {
+    background-color:  #0056b3;
+    gap: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.panelButtonContainer button:hover {
+    background-color:  #007bff;
+}
+
+.panelButtonContainer .deleteButton {
+    background-color: #8D021f;
+    
+}
+
+.panelButtonContainer .deleteButton:hover {
+    background-color: red;
+}
