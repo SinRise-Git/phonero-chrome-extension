@@ -13,7 +13,11 @@ Run the following commands in a terminal:
 
 ```bash
 git clone https://github.com/SinRise-Git/Service-desk-chrome-extension.git
+```
+```bash
 cd Service-desk-chrome-extension
+```
+```bash
 rm README.md .gitignore
 ```
 Remberer where you save the repository too.
