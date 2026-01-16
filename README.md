@@ -23,7 +23,9 @@ rm README.md .gitignore
 Remberer where you save the repository too.
 ## 2. Got to extentions in chrome  
 Open Chrome and navigate to:
-[chrome://extensions/]
+```bash
+chrome://extensions/
+```
 ## 3. Activate developere mode 
 Enable Developer mode by toggling the switch in the top-right corner.
 ## 4. Load the extension
